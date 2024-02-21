@@ -1,0 +1,96 @@
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  /* padding: means the space between content and border */
+  text-decoration: none;
+  /* text-decoration: sets the appearance of decorative lines */
+  box-sizing: border-box;
+  /* box-sizing: defines how the width and height of an element are calculated */
+}
+
+/* Design body */
+body{
+  min-height: 100vh;
+  /* min-height: defines the minimum height of an element. If the content is smaller than the minimum height, the minimum height will be applied. */
+  background: linear-gradient(to top right, #a1a1a1, #84b4d7, #00d1e3, #00e7a2, #a8eb12);
+  /* Sets background to a linear gradient */
+}
+
+/* Design form tag */
+form{
+  background: #989898ce;
+  /* Sets width and height */
+  width: 350px;
+  height: 580px;
+  /* Padding: Adds space between content and border */
+  padding: 75px 50px; /* padding-left: 50px, padding-top: 75px */
+  /* positon: absolute - an element whose computed position value is absolute or fixed  */
+  position: absolute;
+  /* left & top: Align the form box to the center */
+  left: 50%;
+  top: 50%;
+  /* transform: makes the form in the middle */
+  transform: translate(-50%, -50%);
+}
+
+/* Design Login Text */
+h1{
+  text-align: center;
+  margin: 45px;
+  color: white;
+  font-size: large;
+}
+
+/* Design Textbox */
+.textbox_div{
+  border-bottom: 2px solid white;
+  /* Position: relative - positioned relative to its normal position. */
+  position: relative;
+  margin: 35px 0; /* 35px = top, 0 = left */
+}
+
+/* Design Textbox Input */
+.textbox_div input{
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: white;
+  height: 30px;
+  font-size: 20px;
+}
+
+/* Design Login Button */
+#login_button{
+  height: 45px;
+  width: 100%;
+  border-width: 1px;
+  outline: none;
+  background: linear-gradient(to top right, #a1a1a1, #84b4d7, #00d1e3, #00e7a2, #a8eb12);
+  background-size: 200%;
+  color: white;
+  font-size: 16px;
+}
+
+/* Design Login Button Animation */
+.login_button:hover{
+  background-position: right;
+  font-size: 17px;
+}
+
+/* Design Signup */
+.signup{
+  color: white;
+  margin-top: 45px;
+  text-align: center;
+}
+
+/* Design Signup Link */
+.signup a{
+  color: black;
+}
+
+.line{
+  border-color: black;
+}
