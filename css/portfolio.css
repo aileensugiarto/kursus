@@ -1,0 +1,29 @@
+a{
+  padding-right: 25px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}
+
+nav{
+  background-color: aliceblue;
+  margin-bottom: 15px;
+}
+
+header{
+  text-align: center;
+}
+
+main{
+  text-align: center;
+}
+
+table{
+  margin: 1em auto;
+}
+
+footer{
+  background-color: aqua;
+}
